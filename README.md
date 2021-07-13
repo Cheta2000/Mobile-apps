@@ -5,4 +5,4 @@ Mobile apps written in Android Studio with Kotlin
 3. Hangman - guessing word with limited lifes. App has own keyboard.
 4. MyGallery - simple gallery with some photos, there are used fragments.
 5. TODO - list of tasks to do. You can add, edit (long click), delete (swipe), sort, mark as important. App uses database and some interesting libraries.
-6. TicTacoToe - game via Internet, using Firebase.
+6. TicTacToe - game via Internet, using Firebase.
