@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "114359697646",
+    "project_id": "cities-4bc46",
+    "storage_bucket": "cities-4bc46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114359697646:android:2435c59128158e3e3e33ff",
+        "android_client_info": {
+          "package_name": "com.example.citymap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114359697646-7u2m6of8d56mjppevjokku0dq7qfv04b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXgXHoFhAI6VthWmILB99MH5tW-Rx6vqI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114359697646-7u2m6of8d56mjppevjokku0dq7qfv04b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
