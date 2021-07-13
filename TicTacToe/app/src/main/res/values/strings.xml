@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="Player1">MOVE: Player 1 (O)</string>
+    <string name="Player2">MOVE: Player 2 (X)</string>
+    <string name="Oval">O</string>
+    <string name="Cross">X</string>
+    <string name="Deuce">Deuce</string>
+    <string name="WinOval">O won</string>
+    <string name="WinCross">X won</string>
+    <string name="NoRes">No result</string>
+    <string name="EndO">Player 1 (O) wins</string>
+    <string name="EndX">Player 2 (X) wins</string>
+    <string name="P1">Player 1: O</string>
+    <string name="P2">Player 2: X</string>
+    <string name="Exit">EXIT</string>
+    <string name="Type">Choose type of a game:</string>
+    <string name="Three">3x3</string>
+    <string name="Five">5x5</string>
+    <string name="Last">Last game: none</string>
+</resources>
