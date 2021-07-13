@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">TO-DO</string>
+    <string name="friends">FRIENDS</string>
+    <string name="work">WORK</string>
+    <string name="shop">SHOPPING</string>
+    <string name="meet">MEETING</string>
+    <string name="call">CALL</string>
+    <string name="nameInv">Name cannot be empty</string>
+    <string name="dateInv">Date cannot be empty</string>
+    <string name="timeInv">Time cannot be empty</string>
+    <string name="add">ADD</string>
+    <string name="delete">Do you want to delete item?</string>
+    <string name="info">INFO</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="date"><u>DATE</u></string>
+    <string name="time"><u>TIME</u></string>
+    <string name="conf">CONFIRM</string>
+    <string name="important">IMPORTANT</string>
+    <string name="date2">DATE</string>
+    <string name="time2">TIME</string>
+    <string name="sorting"><i>SORTING</i></string>
+    <string-array name="sortStyle">
+        <item>Add</item>
+        <item>Deadline</item>
+        <item>Type</item>
+        <item>Importance</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="task">TASK</string>
+    <string name="details">Please fill all the details!</string>
+    <string name="emptyTime">Time cannot be empty</string>
+    <string name="emptyDate">Date cannot be empty</string>
+    <string name="emptyName">Name cannot be empty</string>
+    <string name="reminder">REMINDER</string>
+    <string name="change">Change</string>
+    <string name="success">Success!</string>
+    <string name="successText">You added new task</string>
+    <string name="changeText">You changed a task</string>
+    <string name="dbName">MyItem</string>
+</resources>

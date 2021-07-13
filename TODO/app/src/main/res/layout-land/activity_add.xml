@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background3">
+
+   <Button
+       android:id="@+id/buttonConfirm"
+       android:layout_width="200dp"
+       android:layout_height="wrap_content"
+       android:background="@drawable/button3"
+       android:text="@string/conf"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.89"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/exit"
+       app:layout_constraintVertical_bias="0.74" />
+
+   <RelativeLayout
+       android:id="@+id/relativeLayout3"
+       android:layout_width="wrap_content"
+       android:layout_height="150dp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.06"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/info"
+       app:layout_constraintVertical_bias="0.52">
+
+      <TextView
+          android:id="@+id/textDate"
+          android:layout_width="120dp"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/buttonDate"
+          android:layout_marginTop="30dp"
+          android:background="@color/background3"
+          android:gravity="center"
+          android:textSize="22sp" />
+
+      <Button
+          android:id="@+id/buttonDate"
+          android:layout_width="120dp"
+          android:layout_height="80dp"
+          android:background="@drawable/button2"
+          android:text="@string/date2" />
+   </RelativeLayout>
+
+   <EditText
+       android:id="@+id/name2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:ems="10"
+       android:hint="NAME"
+       android:inputType="textPersonName"
+       app:layout_constraintBottom_toTopOf="@+id/buttonConfirm"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.05"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.060000002" />
+
+   <EditText
+       android:id="@+id/info"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="72dp"
+       android:ems="10"
+       android:gravity="start|top"
+       android:hint="INFO"
+       android:inputType="textMultiLine"
+       app:layout_constraintBottom_toTopOf="@+id/buttonConfirm"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.05"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/name2"
+       app:layout_constraintVertical_bias="0.23000002" />
+
+   <RelativeLayout
+       android:id="@+id/relativeLayout"
+       android:layout_width="wrap_content"
+       android:layout_height="150dp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.38"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/info"
+       app:layout_constraintVertical_bias="0.52">
+
+      <TextView
+          android:id="@+id/textTime"
+          android:layout_width="120dp"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/buttonTime"
+          android:layout_marginTop="30dp"
+          android:gravity="center"
+          android:textSize="22sp" />
+
+      <Button
+          android:id="@+id/buttonTime"
+          android:layout_width="120dp"
+          android:layout_height="80dp"
+          android:background="@drawable/button2"
+          android:text="@string/time2" />
+   </RelativeLayout>
+
+   <Spinner
+       android:id="@+id/spinner"
+       android:layout_width="300dp"
+       android:layout_height="wrap_content"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="1.0"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.050000012" />
+
+   <CheckBox
+       android:id="@+id/important"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:background="@color/background3"
+       android:text="@string/important"
+       android:textColor="@color/design_default_color_error"
+       android:textSize="14sp"
+       app:layout_constraintBottom_toTopOf="@+id/buttonConfirm"
+       app:layout_constraintEnd_toStartOf="@+id/spinner"
+       app:layout_constraintStart_toEndOf="@+id/name2"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.236" />
+
+   <Button
+       android:id="@+id/exit"
+       android:layout_width="200dp"
+       android:layout_height="wrap_content"
+       android:background="@drawable/button4"
+       android:text="EXIT"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.89"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/spinner"
+       app:layout_constraintVertical_bias="0.39" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
